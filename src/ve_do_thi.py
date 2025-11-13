@@ -133,7 +133,7 @@ def ve_do_thi(above,bottom):
 
         return lines
     
-    animation.FuncAnimation(fig, update, frames=total_frames,init_func=init, blit=True, interval=30)
+    ani = animation.FuncAnimation(fig, update, frames=total_frames, init_func=init, blit=True, interval=30)
 
     plt.tight_layout()
     plt.show()
