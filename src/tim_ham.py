@@ -69,11 +69,7 @@ def tim_ham(x_t, y_t, t):
     print("="*50)
     
     return {
-        # "velocity": velocity_vector,
         "vantoc": speed,
-        # "acceleration": acceleration_vector,
         "tieptuyen": a_t_magnitude,
-        # "tangential_acceleration_vec": a_t_vector,
         "phaptuyen": a_n_magnitude,
-        # "normal_acceleration_vec": a_n_vector
     }

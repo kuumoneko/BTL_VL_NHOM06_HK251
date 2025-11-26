@@ -49,7 +49,6 @@ def giai(v0 ,a1,g):
              'pi': sp.pi
         }
         sympy_expression = sp.sympify(string, locals=parse_dict)
-        print(string)
         eq_list = sympy_expression.args
         results = []
         for eq in eq_list:
